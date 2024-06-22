@@ -1,0 +1,210 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body{overflow-x: hidden;}
+#full-page{
+    background-color: rgb(19,19,19);
+    height: 695px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 0px 35px;
+    height: 50px;
+    font-family: "Mukta", sans-serif;
+    font-size: 18px;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+h1{
+    font-family: "Mukta", sans-serif;
+    font-size: 170px;
+    text-transform: uppercase;
+    line-height: 0.70;
+    margin: 0px;
+    font-weight: 200;
+    width: 80%;
+    margin-left: 10%;
+    background-color: transparent;
+    position: relative;
+    z-index: 9;
+}
+div h1:nth-child(2){
+    margin-top: 130px;
+}
+div h1:nth-child(3){
+    text-align: center;
+}div h1:nth-child(4){
+    text-align: center;
+}
+#full-page img{
+    height: 400px;
+    position: absolute;
+    top: 17%;
+    right: 40%;
+    z-index: 3;
+}
+#img1{
+    transform: rotate(8deg);
+    z-index: 2;
+}
+#img2{
+    transform: rotate(15deg);
+    z-index: 1;
+}
+#sub-head{
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    text-align: center;
+    transform: translateY(15px);
+    text-transform: capitalize;
+}
+
+
+
+/* page 2 css starts */
+
+#full-page2{
+    height: 695px;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+#full-page2 h1{
+    font-family: "mukta",sans-serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+#skills-page{
+    padding: 0px 50px 0px 50px;
+    margin-top: 50px;
+    height: 75%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    column-gap: 90px;
+}
+.slide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slide h6{
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-right: 110px;
+}
+.slide img{
+    height: 150px;
+    width: 150px;
+}
+#sideimage , .slide{
+    color: black;
+    background-color: whitesmoke;
+}
+#sideimage{
+    background-image: url(images/sidebar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+#slide-1 h6:nth-child(2){
+    color: #e34c26;
+}
+#slide-1 h6:nth-child(4){
+    color: #264de4;
+}
+#slide-2 h6:nth-child(2){
+    color: #F0DB4F;
+    font-size: 35px;
+}
+#slide-2 h6:nth-child(4){
+    color: #268f43;
+}
+#slide-3 h6:nth-child(2){
+    color: #0b006c;
+    padding-left: 10px;
+}
+#slide-3 h6:nth-child(4){
+    color: #0a86e4;
+    padding-left: 8px;
+}
+
+/* expertise css */
+
+#expertise{
+    height: 695px;
+    width: 100%;
+    background-color: #98c1d9;
+    display: flex;
+    align-items: center;
+}
+#expertise p{
+    font-size: 45vw;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+#footer{
+    height: 280px;
+    background-color: #293241;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-info, .social-media, .footer-nav, .newsletter, .legal-links {
+    margin: 10px 0;
+  }
+  
+  .footer-nav a, .social-media a, .legal-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-nav a:hover, .social-media a:hover, .legal-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .newsletter input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .newsletter button {
+    padding: 5px 10px;
+    background-color: #ff5722;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #e64a19;
+  }
