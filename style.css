@@ -12,7 +12,7 @@
 #full-page2{
     height: 695px;
     background-color: whitesmoke;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 #full-page2 h1{
     font-family: "mukta",sans-serif;
